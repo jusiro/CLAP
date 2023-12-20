@@ -1,0 +1,6 @@
+# Some examples of implemented baselines
+bash scripts/adapt.sh 0 caltech101 SGD_lr1e-1_B256_ep300 1 RANDOM none RN50
+bash scripts/adapt.sh 0 caltech101 SGD_lr1e-1_B256_ep300 1 ClipA none RN50
+bash scripts/adapt.sh 0 caltech101 SGD_lr1e-1_B256_ep300 1 TipA none RN50
+bash scripts/adapt.sh 0 caltech101 SGD_lr1e-1_B256_ep300 1 TipA(f) none RN50
+bash scripts/adapt.sh 0 caltech101 SGD_lr1e-1_B256_ep300 1 TR none RN50

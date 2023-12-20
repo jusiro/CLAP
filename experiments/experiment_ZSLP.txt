@@ -1,0 +1,60 @@
+# RN50 Experiments for all datasets - CLAP - 1 shots
+bash scripts/adapt.sh 3 imagenet SGD_lr1e-1_B256_ep300 1 ZS none RN50
+bash scripts/adapt.sh 3 caltech101 SGD_lr1e-1_B256_ep300 1 ZS none RN50
+bash scripts/adapt.sh 3 oxford_pets SGD_lr1e-1_B256_ep300 1 ZS none RN50
+bash scripts/adapt.sh 3 stanford_cars SGD_lr1e-1_B256_ep300 1 ZS none RN50
+bash scripts/adapt.sh 3 oxford_flowers SGD_lr1e-1_B256_ep300 1 ZS none RN50
+bash scripts/adapt.sh 3 food101 SGD_lr1e-1_B256_ep300 1 ZS none RN50
+bash scripts/adapt.sh 3 fgvc_aircraft SGD_lr1e-1_B256_ep300 1 ZS none RN50
+bash scripts/adapt.sh 3 sun397 SGD_lr1e-1_B256_ep300 1 ZS none RN50
+bash scripts/adapt.sh 3 dtd SGD_lr1e-1_B256_ep300 1 ZS none RN50
+bash scripts/adapt.sh 3 eurosat SGD_lr1e-1_B256_ep300 1 ZS none RN50
+bash scripts/adapt.sh 3 ucf101 SGD_lr1e-1_B256_ep300 1 ZS none RN50
+# RN50 Experiments for all datasets - CLAP - 2 shots
+bash scripts/adapt.sh 3 imagenet SGD_lr1e-1_B256_ep300 2 ZS none RN50
+bash scripts/adapt.sh 3 caltech101 SGD_lr1e-1_B256_ep300 2 ZS none RN50
+bash scripts/adapt.sh 3 oxford_pets SGD_lr1e-1_B256_ep300 2 ZS none RN50
+bash scripts/adapt.sh 3 stanford_cars SGD_lr1e-1_B256_ep300 2 ZS none RN50
+bash scripts/adapt.sh 3 oxford_flowers SGD_lr1e-1_B256_ep300 2 ZS none RN50
+bash scripts/adapt.sh 3 food101 SGD_lr1e-1_B256_ep300 2 ZS none RN50
+bash scripts/adapt.sh 3 fgvc_aircraft SGD_lr1e-1_B256_ep300 2 ZS none RN50
+bash scripts/adapt.sh 3 sun397 SGD_lr1e-1_B256_ep300 2 ZS none RN50
+bash scripts/adapt.sh 3 dtd SGD_lr1e-1_B256_ep300 2 ZS none RN50
+bash scripts/adapt.sh 3 eurosat SGD_lr1e-1_B256_ep300 2 ZS none RN50
+bash scripts/adapt.sh 3 ucf101 SGD_lr1e-1_B256_ep300 2 ZS none RN50
+# RN50 Experiments for all datasets - CLAP - 4 shots
+bash scripts/adapt.sh 3 imagenet SGD_lr1e-1_B256_ep300 4 ZS none RN50
+bash scripts/adapt.sh 3 caltech101 SGD_lr1e-1_B256_ep300 4 ZS none RN50
+bash scripts/adapt.sh 3 oxford_pets SGD_lr1e-1_B256_ep300 4 ZS none RN50
+bash scripts/adapt.sh 3 stanford_cars SGD_lr1e-1_B256_ep300 4 ZS none RN50
+bash scripts/adapt.sh 3 oxford_flowers SGD_lr1e-1_B256_ep300 4 ZS none RN50
+bash scripts/adapt.sh 3 food101 SGD_lr1e-1_B256_ep300 4 ZS none RN50
+bash scripts/adapt.sh 3 fgvc_aircraft SGD_lr1e-1_B256_ep300 4 ZS none RN50
+bash scripts/adapt.sh 3 sun397 SGD_lr1e-1_B256_ep300 4 ZS none RN50
+bash scripts/adapt.sh 3 dtd SGD_lr1e-1_B256_ep300 4 ZS none RN50
+bash scripts/adapt.sh 3 eurosat SGD_lr1e-1_B256_ep300 4 ZS none RN50
+bash scripts/adapt.sh 3 ucf101 SGD_lr1e-1_B256_ep300 4 ZS none RN50
+# RN50 Experiments for all datasets - CLAP - 8 shots
+bash scripts/adapt.sh 3 imagenet SGD_lr1e-1_B256_ep300 8 ZS none RN50
+bash scripts/adapt.sh 3 caltech101 SGD_lr1e-1_B256_ep300 8 ZS none RN50
+bash scripts/adapt.sh 3 oxford_pets SGD_lr1e-1_B256_ep300 8 ZS none RN50
+bash scripts/adapt.sh 3 stanford_cars SGD_lr1e-1_B256_ep300 8 ZS none RN50
+bash scripts/adapt.sh 3 oxford_flowers SGD_lr1e-1_B256_ep300 8 ZS none RN50
+bash scripts/adapt.sh 3 food101 SGD_lr1e-1_B256_ep300 8 ZS none RN50
+bash scripts/adapt.sh 3 fgvc_aircraft SGD_lr1e-1_B256_ep300 8 ZS none RN50
+bash scripts/adapt.sh 3 sun397 SGD_lr1e-1_B256_ep300 8 ZS none RN50
+bash scripts/adapt.sh 3 dtd SGD_lr1e-1_B256_ep300 8 ZS none RN50
+bash scripts/adapt.sh 3 eurosat SGD_lr1e-1_B256_ep300 8 ZS none RN50
+bash scripts/adapt.sh 3 ucf101 SGD_lr1e-1_B256_ep300 8 ZS none RN50
+# RN50 Experiments for all datasets - CLAP - 16 shots
+bash scripts/adapt.sh 3 imagenet SGD_lr1e-1_B256_ep300 16 ZS none RN50
+bash scripts/adapt.sh 3 caltech101 SGD_lr1e-1_B256_ep300 16 ZS none RN50
+bash scripts/adapt.sh 3 oxford_pets SGD_lr1e-1_B256_ep300 16 ZS none RN50
+bash scripts/adapt.sh 3 stanford_cars SGD_lr1e-1_B256_ep300 16 ZS none RN50
+bash scripts/adapt.sh 3 oxford_flowers SGD_lr1e-1_B256_ep300 16 ZS none RN50
+bash scripts/adapt.sh 3 food101 SGD_lr1e-1_B256_ep300 16 ZS none RN50
+bash scripts/adapt.sh 3 fgvc_aircraft SGD_lr1e-1_B256_ep300 16 ZS none RN50
+bash scripts/adapt.sh 3 sun397 SGD_lr1e-1_B256_ep300 16 ZS none RN50
+bash scripts/adapt.sh 3 dtd SGD_lr1e-1_B256_ep300 16 ZS none RN50
+bash scripts/adapt.sh 3 eurosat SGD_lr1e-1_B256_ep300 16 ZS none RN50
+bash scripts/adapt.sh 3 ucf101 SGD_lr1e-1_B256_ep300 16 ZS none RN50

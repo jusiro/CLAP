@@ -1,5 +1,5 @@
 # CLass adaptive Linear Probing (*CLAP*)
-The official implementation of [*A Closer Look at the Few-Shot Adaptation of Large Vision-Language Models*]().
+The official implementation of [*A Closer Look at the Few-Shot Adaptation of Large Vision-Language Models*](https://arxiv.org/abs/2312.12730).
 
 When **adapting CLIP** using only few-shot, it is **unrealistic** to assume the presence of a **validation subset** to empirically
 fix a set of hyperparameters per task, *i.e.* model selection. We propose two solutions, which do not require any hyperparameter 

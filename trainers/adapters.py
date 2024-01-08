@@ -1,9 +1,3 @@
-'''
-Task Residual Tuning
-by Tao Yu (yutao666@mail.ustc.edu.cn)
-Oct 4, 2022
-'''
-
 import os
 import os.path as osp
 from re import template
@@ -100,7 +94,7 @@ def _get_base_text_features(cfg, classnames, clip_model, text_encoder, pretraine
         text_encoder = text_encoder.cuda()
 
         if pretrained_projection is not None:
-            # Load pretrained projection from TaskResidual WOrk
+            # Load pretrained projection from TaskResidual Work
             pretrained_text_projection = torch.load(pretrained_projection)
 
             # Move weight to current CLIP model

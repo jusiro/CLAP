@@ -1,8 +1,7 @@
 #!/bin/bash
 
 # custom config
-#DATA=/data/
-DATA=/home/juliosilva/Documents/LIVIA/natural_image/
+DATA=/data/
 TRAINER=ADAPTER
 
 DEVICE=$1

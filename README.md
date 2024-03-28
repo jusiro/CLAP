@@ -1,5 +1,14 @@
 # CLass adaptive Linear Probing (*CLAP*)
-The official implementation of [*A Closer Look at the Few-Shot Adaptation of Large Vision-Language Models*](https://arxiv.org/abs/2312.12730).
+The official implementation of [*A Closer Look at the Few-Shot Adaptation of Large Vision-Language Models*](https://arxiv.org/abs/2312.12730).<br/>
+[Julio Silva-Rodriguez](https://scholar.google.es/citations?user=1UMYgHMAAAAJ&hl),
+[Sina Hajimiri](https://scholar.google.com/citations?user=C5k-mOYAAAAJ&hl),
+[Ismail Ben Ayed](https://scholar.google.es/citations?user=29vyUccAAAAJ&hl),
+[Jose Dolz](https://scholar.google.es/citations?user=yHQIFFMAAAAJ&hl)
+<br/>
+[ÉTS Montreal](https://liviamtl.ca/)
+<br/>
+| [Project](https://jusiro.github.io/projects/clap) | [Paper](https://arxiv.org/pdf/2312.12730.pdf) | [Code](https://github.com/jusiro/CLAP) |
+<br/>
 
 When **adapting CLIP** using only few-shot, it is **unrealistic** to assume the presence of a **validation subset** to empirically
 fix a set of hyperparameters per task, *i.e.* model selection. We propose two solutions, which do not require any hyperparameter 
@@ -31,3 +40,14 @@ We present the basic usage here.
 
 ## Acknowledgment
 This repository is mainly based on [CoOp](https://github.com/KaiyangZhou/CoOp) and [TaskRes](https://github.com/geekyutao/TaskRes) code base. We sincerely thank prior authors on this topic for his awesome code base.
+
+# Citation
+
+If you find this repository useful, please consider citing this paper:
+```
+@inproceedings{clap24,
+    title={A Closer Look at the Few-Shot Adaptation of Large Vision-Language Models},
+    author={Julio Silva-Rodr\'iguez and Sina Hajimiri and Jose Dolz and Ismail Ben Ayed},
+    booktitle={IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    year={2024}
+    }

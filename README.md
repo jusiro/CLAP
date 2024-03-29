@@ -47,7 +47,7 @@ If you find this repository useful, please consider citing this paper:
 ```
 @inproceedings{clap24,
     title={A Closer Look at the Few-Shot Adaptation of Large Vision-Language Models},
-    author={Julio Silva-Rodr\'iguez and Sina Hajimiri and Jose Dolz and Ismail Ben Ayed},
+    author={Julio Silva-Rodr\'iguez and Sina Hajimiri and Ismail Ben Ayed and Jose Dolz},
     booktitle={IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
     year={2024}
     }

@@ -36,7 +36,7 @@ We present the basic usage here.
 - `bash scripts/adapt.sh 0 imagenet SGD_lr1e-1_B256_ep300 1 ZS l2 RN50`
 
 (c) Test domain generalization:
-- `bash scripts/eval.sh 0 imagenetv2 SGD_lr1e-1_B256_ep300 1 ZS l2 RN50`
+- `bash scripts/eval.sh 0 imagenet imagenetv2 SGD_lr1e-1_B256_ep300 1 ZS l2 RN50`
 
 ## Acknowledgment
 This repository is mainly based on [CoOp](https://github.com/KaiyangZhou/CoOp) and [TaskRes](https://github.com/geekyutao/TaskRes) code base. We sincerely thank prior authors on this topic for his awesome code base.

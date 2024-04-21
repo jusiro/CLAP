@@ -74,7 +74,9 @@ def reset_cfg(cfg, args):
     if args.head:
         cfg.MODEL.HEAD.NAME = args.head
 
-
+    if args.train_sampler:
+        cfg.DATALOADER.TRAIN_X.SAMPLER = args.train_sampler
+        
 def extend_cfg(cfg):
     """
     Add new config variables.
@@ -202,5 +204,8 @@ if __name__ == "__main__":
     parser.add_argument(
         "--enhanced-base", type=str, default="none", help="path to enhanced base classifier weight"
     )   # "none" means without using enhanced base
+    parser.add_argument(
+        "--train-sampler", type=str, default="RandomSampler", help="When training with TipA/TipA-f-, use SequentialSampler to replace the default RandomSampler to fix the order of train set",
+    )
     args = parser.parse_args()
     main(args)

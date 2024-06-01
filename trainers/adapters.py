@@ -191,8 +191,6 @@ class AdapterMethod(nn.Module):
         ).to(self.device)
 
     def init_tipA(self, beta=1, alpha=1):
-        # We found performance drop and inconsistencies when using augmentations on TipA
-        self.epochs_aumentation, self.augmentations = 1, False
 
         if "-f-" in self.initialization:
             self.grid_search_param = {"lr": [1e-1, 1e-2],
@@ -824,9 +822,9 @@ class ADAPTER(TrainerXCostume):
                         labels_ds.append(label), logits_ds.append(logits.cpu()),  features_ds.append(features.cpu())
 
             # Concatenate outputs
-            labels_ds = torch.concat(labels_ds, dim=0)
-            logits_ds = torch.concat(logits_ds, dim=0)
-            features_ds = torch.concat(features_ds, dim=0)
+            labels_ds = torch.cat(labels_ds, dim=0)
+            logits_ds = torch.cat(logits_ds, dim=0)
+            features_ds = torch.cat(features_ds, dim=0)
 
         else:
 
@@ -839,17 +837,17 @@ class ADAPTER(TrainerXCostume):
                         logits, features = self.model(input, return_features=True)
                         labels_ds_irep.append(label), logits_dsirep.append(logits.cpu()), features_ds_irep.append(features.cpu())
                 # Concatenate outputs for dataset
-                labels_ds_irep = torch.concat(labels_ds_irep, dim=0)
-                logits_dsirep = torch.concat(logits_dsirep, dim=0)
-                features_ds_irep = torch.concat(features_ds_irep, dim=0)
-                # Concatenate outputs for repetitons
+                labels_ds_irep = torch.cat(labels_ds_irep, dim=0)
+                logits_dsirep = torch.cat(logits_dsirep, dim=0)
+                features_ds_irep = torch.cat(features_ds_irep, dim=0)
+                # Concatenate outputs for repetitions
                 labels_ds.append(labels_ds_irep.unsqueeze(0))
                 logits_ds.append(logits_dsirep.unsqueeze(0))
                 features_ds.append(features_ds_irep.unsqueeze(0))
 
             # Concatenate outputs
-            labels_ds = torch.concat(labels_ds, dim=0)[0, :]
-            logits_ds = torch.concat(logits_ds, dim=0).mean(0)
-            features_ds = torch.concat(features_ds, dim=0).mean(0)
+            labels_ds = torch.cat(labels_ds, dim=0)[0, :]
+            logits_ds = torch.cat(logits_ds, dim=0).mean(0)
+            features_ds = torch.cat(features_ds, dim=0).mean(0)
 
         return labels_ds, logits_ds, features_ds

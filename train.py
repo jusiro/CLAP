@@ -116,6 +116,12 @@ def setup_cfg(args):
     # 4. From optional input arguments
     cfg.merge_from_list(args.opts)
 
+    # Fix to avoid miss-alignment in cache samples during image augmentations
+    if "TipA" in cfg.TRAINER.ADAPTER.INIT:
+        cfg.DATALOADER.TRAIN_X.SAMPLER = "SequentialSampler"
+    else:
+        cfg.DATALOADER.TRAIN_X.SAMPLER = "RandomSampler"
+
     cfg.freeze()
 
     return cfg

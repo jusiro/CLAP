@@ -4,9 +4,7 @@ The official implementation of [*A Closer Look at the Few-Shot Adaptation of Lar
 [Julio Silva-Rodriguez](https://scholar.google.es/citations?user=1UMYgHMAAAAJ&hl),
 [Sina Hajimiri](https://scholar.google.com/citations?user=C5k-mOYAAAAJ&hl),
 [Ismail Ben Ayed](https://scholar.google.es/citations?user=29vyUccAAAAJ&hl),
-[Jose Dolz](https://scholar.google.es/citations?user=yHQIFFMAAAAJ&hl)
-<br/>
-ÉTS Montréal
+[Jose Dolz](https://scholar.google.es/citations?user=yHQIFFMAAAAJ&hl) ⋅ ÉTS Montréal
 <br/>
 | [Project](https://jusiro.github.io/projects/clap) | [Conference](https://openaccess.thecvf.com/content/CVPR2024/papers/Silva-Rodriguez_A_Closer_Look_at_the_Few-Shot_Adaptation_of_Large_Vision-Language_CVPR_2024_paper.pdf) | [ArXiv](https://arxiv.org/pdf/2312.12730.pdf) | [Code](https://github.com/jusiro/CLAP) |
 <br/>

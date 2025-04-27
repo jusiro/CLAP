@@ -1,11 +1,12 @@
 # CLass adaptive Linear Probing (*CLAP*)
 The official implementation of [*A Closer Look at the Few-Shot Adaptation of Large Vision-Language Models*](https://arxiv.org/abs/2312.12730).<br/>
+📜 <span style="color:red">*IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*</span> \
 [Julio Silva-Rodriguez](https://scholar.google.es/citations?user=1UMYgHMAAAAJ&hl),
 [Sina Hajimiri](https://scholar.google.com/citations?user=C5k-mOYAAAAJ&hl),
 [Ismail Ben Ayed](https://scholar.google.es/citations?user=29vyUccAAAAJ&hl),
 [Jose Dolz](https://scholar.google.es/citations?user=yHQIFFMAAAAJ&hl)
 <br/>
-[ÉTS Montreal](https://liviamtl.ca/)
+ÉTS Montréal
 <br/>
 | [Project](https://jusiro.github.io/projects/clap) | [Paper](https://arxiv.org/pdf/2312.12730.pdf) | [Code](https://github.com/jusiro/CLAP) |
 <br/>

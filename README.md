@@ -1,5 +1,5 @@
 # CLass adaptive Linear Probing (*CLAP*)
-The official implementation of [*A Closer Look at the Few-Shot Adaptation of Large Vision-Language Models*](https://arxiv.org/abs/2312.12730).<br/>
+The official implementation of [*A Closer Look at the Few-Shot Adaptation of Large Vision-Language Models*](https://openaccess.thecvf.com/content/CVPR2024/papers/Silva-Rodriguez_A_Closer_Look_at_the_Few-Shot_Adaptation_of_Large_Vision-Language_CVPR_2024_paper.pdf).<br/>
 📜 <span style="color:red">*IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*</span> \
 [Julio Silva-Rodriguez](https://scholar.google.es/citations?user=1UMYgHMAAAAJ&hl),
 [Sina Hajimiri](https://scholar.google.com/citations?user=C5k-mOYAAAAJ&hl),
@@ -8,7 +8,7 @@ The official implementation of [*A Closer Look at the Few-Shot Adaptation of Lar
 <br/>
 ÉTS Montréal
 <br/>
-| [Project](https://jusiro.github.io/projects/clap) | [Paper](https://arxiv.org/pdf/2312.12730.pdf) | [Code](https://github.com/jusiro/CLAP) |
+| [Project](https://jusiro.github.io/projects/clap) | [Conference](https://openaccess.thecvf.com/content/CVPR2024/papers/Silva-Rodriguez_A_Closer_Look_at_the_Few-Shot_Adaptation_of_Large_Vision-Language_CVPR_2024_paper.pdf) | [ArXiv](https://arxiv.org/pdf/2312.12730.pdf) | [Code](https://github.com/jusiro/CLAP) |
 <br/>
 
 When **adapting CLIP** using only few-shot, it is **unrealistic** to assume the presence of a **validation subset** to empirically

@@ -45,7 +45,7 @@ This repository is mainly based on [CoOp](https://github.com/KaiyangZhou/CoOp) a
 If you find this repository useful, please consider citing this paper:
 ```
 @inproceedings{clap24,
-    author    = {Silva-Rodr{\'\i}guez, Julio and Hajimiri, Sina and Ben Ayed, Ismail and Dolz, Jose},
+    author    = {Silva-Rodríguez, Julio and Hajimiri, Sina and Ben Ayed, Ismail and Dolz, Jose},
     title     = {A Closer Look at the Few-Shot Adaptation of Large Vision-Language Models},
     booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
     month     = {June},
